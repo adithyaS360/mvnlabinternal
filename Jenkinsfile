@@ -1,6 +1,3 @@
-
-
-
 pipeline {
     agent any  // Use any available agent
 
@@ -47,5 +44,4 @@ pipeline {
             echo 'Build failed!'
         }
     }
-
 }
